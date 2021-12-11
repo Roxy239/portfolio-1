@@ -79,6 +79,7 @@ function About() {
                     <img src="images/icon-3.png" alt=""/>
                     <h3>javascript</h3>
                 </div>
+                
                 <div className="box">
                     <img src="images/icon-6.png" alt=""/>
                     <h3>react.js</h3>

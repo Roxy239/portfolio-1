@@ -12,11 +12,8 @@ function Contact() {
             <h1 className="heading"> contact me </h1>
 
             <div className="row">
-
-
                 <form onSubmit={handleSubmit}>
-
-                    <div className="inputBox">
+                 <div className="inputBox">
                         <input type="text" placeholder="your name"/>
                         <input type="number" placeholder="your number"/>
                     </div>
@@ -29,10 +26,9 @@ function Contact() {
                     <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
 
                     {/* <input type="submit" value="send message" className="btn"/> */}
-                    <button type="submit">Send</button>
+                    <button type=" submit" className="btn btn-danger">Send</button>
                      {message && <span>Thanks, I'll reply ASAP :)</span>}
                     
-
                 </form>
 
             </div>
