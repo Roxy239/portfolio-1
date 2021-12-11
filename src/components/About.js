@@ -3,7 +3,7 @@ function About() {
     <>
         <section className="about">
 
-            <h1 className="heading"> about <span>me</span> </h1>
+            <h2 className="heading"> about me </h2>
 
             <div className="row">
 
@@ -14,26 +14,26 @@ function About() {
                     <div className="box-container">
 
                         <div className="box">
-                            <h3> <span>name : </span> sana shaikh </h3>
-                            <h3> <span>age : </span> 22 </h3>
-                            <h3> <span>email : </span> sanashaikh@gmail.com </h3>
-                            <h3> <span>address : </span> mumbai, india - 400104 </h3>
+                            <h3> <span>name : </span> Rahat Ara Hossain</h3>
+                            <h3> <span>age : </span> 24 </h3>
+                            <h3> <span>email : </span> rahatara239@gmail.com </h3>
+                            <h3> <span>address : </span> Dhaka, Bangladesh </h3>
                         </div>
 
                         <div className="box">
-                            <h3> <span>freelance : </span> available </h3>
+                            {/* <h3> <span>freelance : </span> available </h3> */}
                             <h3> <span>skill : </span> front-end </h3>
-                            <h3> <span>experience : </span> 2 years </h3>
-                            <h3> <span>language : </span> hindi, english </h3>
+                            <h3> <span>experience : </span> 6 months </h3>
+                            <h3> <span>language : </span> Bangla, English </h3>
                         </div>
 
                     </div>
 
-                    <a href="#" className="btn"> download CV <i className="fas fa-download"></i> </a>
+                    <a href="latest resume.pdf" download="latest resume.pdf" className="btn"> Download CV <i className="fas fa-download"></i> </a>
 
                 </div>
 
-                <div className="count-container">
+                {/* <div className="count-container">
 
                     <div className="box">
                         <h3>2+</h3>
@@ -55,7 +55,7 @@ function About() {
                         <p>awards won</p>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
 
@@ -68,19 +68,19 @@ function About() {
 
             <div className="box-container">
                 <div className="box">
-                    <img src="images/icon-1.png"/>
+                    <img src="images/icon-1.png" alt=""/>
                     <h3>html</h3>
                 </div>
                 <div className="box">
-                    <img src="images/icon-2.png"/>
+                    <img src="images/icon-2.png" alt=""/>
                     <h3>css</h3>
                 </div>
                 <div className="box">
-                    <img src="images/icon-3.png"/>
+                    <img src="images/icon-3.png" alt=""/>
                     <h3>javascript</h3>
                 </div>
                 <div className="box">
-                    <img src="images/icon-6.png"/>
+                    <img src="images/icon-6.png" alt=""/>
                     <h3>react.js</h3>
                 </div>
                 <div className="box">
@@ -95,30 +95,25 @@ function About() {
 
         <section className="education">
 
-            <h1 className="heading"> <span>my</span> education </h1>
+            <h1 className="heading"> Resume </h1>
 
             <div className="box-container">
 
                 <div className="box">
                     <i className="fas fa-graduation-cap"></i>
-                    <span>2015 - 2016</span>
-                    <h3>front-end development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
+                    <span>2016 - 2020</span>
+                    <h3>BSc. in Computer Science and Engineering</h3>
+                    <p>East West University</p>
                 </div>
 
                 <div className="box">
                     <i className="fas fa-graduation-cap"></i>
-                    <span>2016 - 2017</span>
-                    <h3>front-end development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
+                    <span>2021</span>
+                    <h3>COMPLETE WEB DEVELOPMENT COURSE WITH JHANKAR MAHBUB</h3>
+                    <p>Programming Hero</p>
                 </div>
 
-                <div className="box">
-                    <i className="fas fa-graduation-cap"></i>
-                    <span>2017 - 2018</span>
-                    <h3>front-end development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
-                </div>
+                
 
             </div>
 

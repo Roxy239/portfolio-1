@@ -1,13 +1,20 @@
+import { useState } from "react";
 function Contact() {
+    const [message, setMessage] = useState(false);
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      setMessage(true);
+    };
     return (
         <section className="contact">
 
-            <h1 className="heading"> contact <span>me</span> </h1>
+            <h1 className="heading"> contact me </h1>
 
             <div className="row">
 
 
-                <form action="">
+                <form onSubmit={handleSubmit}>
 
                     <div className="inputBox">
                         <input type="text" placeholder="your name"/>
@@ -21,7 +28,10 @@ function Contact() {
 
                     <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
 
-                    <input type="submit" value="send message" className="btn"/>
+                    {/* <input type="submit" value="send message" className="btn"/> */}
+                    <button type="submit">Send</button>
+                     {message && <span>Thanks, I'll reply ASAP :)</span>}
+                    
 
                 </form>
 
