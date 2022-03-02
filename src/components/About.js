@@ -14,17 +14,20 @@ function About() {
                     <div className="box-container">
 
                         <div className="box">
-                            <h3> <span>name : </span> Rahat Ara Hossain</h3>
+                            <h1>Web development</h1>
+                            <p>I have studied computer science and at the faculty of Computer Science & Enginnering at East West University, which provided a range of computer-based systems and technical skills</p>
+                            {/* <h3> <span>name : </span> Rahat Ara Hossain</h3>
                             <h3> <span>age : </span> 24 </h3>
                             <h3> <span>email : </span> rahatara239@gmail.com </h3>
-                            <h3> <span>address : </span> Dhaka, Bangladesh </h3>
+                            <h3> <span>address : </span> Dhaka, Bangladesh </h3> */}
                         </div>
 
                         <div className="box">
+                            <p>I feel myself to be proficient in most aspects of web development, but I am aware that I still have a lot to learn. I am easily trainable and can pick up new skills quickly. If I don't have prior knowledge with a piece of software or a talent, I conduct extensive research to learn about it.</p>
                             {/* <h3> <span>freelance : </span> available </h3> */}
-                            <h3> <span>skill : </span> front-end </h3>
+                            {/* <h3> <span>skill : </span> front-end </h3>
                             <h3> <span>experience : </span> 6 months </h3>
-                            <h3> <span>language : </span> Bangla, English </h3>
+                            <h3> <span>language : </span> Bangla, English </h3> */}
                         </div>
 
                     </div>

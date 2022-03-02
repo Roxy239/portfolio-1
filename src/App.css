@@ -220,6 +220,10 @@ section {
   padding: 1rem 0;
   font-weight: normal;
 }
+.about .row .info-container .box-container .box p {
+  font-size: 1.5rem;
+  color: #aaa;
+}
 
 .about .row .info-container .box-container .box h3 span {
   color: #aaa;
@@ -257,6 +261,12 @@ section {
 .about .row .count-container .box p {
   font-size: 2rem;
   color: #aaa;
+}
+.about .box-container .bpx p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
 }
 
 .skills .box-container {

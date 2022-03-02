@@ -7,10 +7,12 @@ function Home() {
         </div>
 
         <div className="content">
-            <h3>hi, i am sana shaikh</h3>
+            <h3>hi, I am Rahat Ara Hossain</h3>
             <span>front-end developer</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet porro facere expedita ab atque a consectetur odit vel soluta itaque.</p>
-            <a href="latest resume.pdf" download="latest resume.pdf" className="btn"> Download Resume <i className="fas fa-user"></i> </a>
+            <p>A detail-oriented person who loves doing front-end development of sites. I am always ready to learn new things, good at cooperating with team over and above working individually. Passionate about
+            developing software.
+</p>
+            <a href="latest resume.pdf" download="latest resume.pdf" className="btn"><i className="fas fa-user"> </i> Download Resume  </a>
         </div>
 
     </section>

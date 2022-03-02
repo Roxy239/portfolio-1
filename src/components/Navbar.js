@@ -4,6 +4,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
+    
     <div>
       <nav className="navbar">
        <Nav.Link as={Link} to="/home"> <i className="fas fa-home"></i> <span>home</span> </Nav.Link>
