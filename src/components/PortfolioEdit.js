@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'react-external-link';
-import { Button } from 'react-bootstrap';
-import Details from './Details';
+// import { Button } from 'react-bootstrap';
+// import Details from './Details';
 
 const PortfolioEdit = () => {
-    const [modalShow, setModalShow] = React.useState(false);
+    // const [modalShow, setModalShow] = React.useState(false);
 
     return (
         <div>
@@ -49,7 +49,7 @@ const PortfolioEdit = () => {
                     <div className="content">
                         <h3>Medinova Ltd</h3>
                         <p>This is a diagnostic centre website where user can create an account  via google. User can login to his/her account</p>
-                        <ExternalLink className="btn" href="https://medinova-diagonistic-centre.web.app/">Live Site</ExternalLink>
+                        <ExternalLink href="https://medinova-diagonistic-centre.web.app/">Live Site</ExternalLink>
                         <Link to={'/details-Medinova'}>Details</Link>
                     </div>
                 </div>

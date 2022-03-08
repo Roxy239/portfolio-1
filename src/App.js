@@ -11,10 +11,14 @@ import Portfolio from './components/Portfolio';
 import PortfolioEdit from './components/PortfolioEdit';
 
 function App() {
-  const hubDesc = ['Description for hublot', 'Some Details', 'More Details'];
-  const hubImg = ['images/blog1.jpg','images/blog2.jpg','images/blog3.jpg','images/blog4.jpg']
+  const hubDesc = ['Description for hublot', 'Some Details', 'More Details', '4th description'];
+  const hubImg = ['images/blog1.jpg','images/blog2.jpg','images/blog3.jpg','images/blog4.jpg'];
 
+  const traDesc = [];
+  const traImg = [];
 
+  const medDesc = [];
+  const medImg = [];
 
   return (
     <div className="App">
@@ -34,6 +38,10 @@ function App() {
             <Route  path="/portfolioedit">
               <Portfolio></Portfolio>
             </Route>
+            <Route  path="/portfolio">
+              <PortfolioEdit></PortfolioEdit>
+            </Route>
+
             <Route  path="/details-Hublet">
               <Details 
                 title = "Hublet" 
@@ -42,8 +50,23 @@ function App() {
                 imgLink = {hubImg}
               />
             </Route>
-            <Route  path="/portfolio">
-              <PortfolioEdit></PortfolioEdit>
+
+            <Route  path="/details-Travely">
+              <Details 
+                title = "Hublet" 
+                brief = "Watch Selling MERN Stack Website"
+                desc = {traDesc}
+                imgLink = {traImg}
+              />
+            </Route>
+
+            <Route  path="/details-Medinova">
+              <Details 
+                title = "Hublet" 
+                brief = "Watch Selling MERN Stack Website"
+                desc = {medDesc}
+                imgLink = {medImg}
+              />
             </Route>
             <Route  path="/contact">
               <Contact></Contact>
@@ -51,6 +74,8 @@ function App() {
             <Route  path="/blog">
               <Blogs></Blogs>
             </Route>
+
+
       </Switch>
       </Router>
      

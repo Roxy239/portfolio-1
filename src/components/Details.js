@@ -11,7 +11,7 @@ function Details(props) {
     
     const imgFlex = {
         display: 'flex',
-        width: '750px',
+        width: '700px',
         justifyContent: 'space-between'
     }
 
@@ -26,12 +26,15 @@ function Details(props) {
     }
 
     const liStyle = {
-        border: '2px solid #ffa403',
-        padding: '7px',
-        borderRadius: '5px 12px',
+        border: '3px solid #ffa403',
+        padding: '5px',
+        borderRadius: '5px 15px',
         fontSize: '1.5rem',
         color: '#fdc018',
         marginLeft: '5px'
+    }
+    const marLef = {
+        marginLeft: '15px',
     }
 
     return (
@@ -51,50 +54,41 @@ function Details(props) {
                         <div className="flexBox" style={flexBox}>
 
                             <div className="box">
-                              <img src={props.imgLink[0]} width={750}/>
+                              <img src={props.imgLink[0]} width={700} alt='Loading Failed'/>
                               
                               <div style={imgFlex}>
-                                  <img width ={245} src={props.imgLink[1]}/>
-                                  <img width ={245} src={props.imgLink[2]}/>
-                                  <img width ={245} src={props.imgLink[3]}/>
+                                  <img width ={230} src={props.imgLink[1]} alt='Loading Failed'/>
+                                  <img width ={230} src={props.imgLink[2]} alt='Loading Failed'/>
+                                  <img width ={230} src={props.imgLink[3]} alt='Loading Failed'/>
                               </div>
                             </div>
 
-                            <div className="box">
+                            <div className="box" style={marLef}>
                               <p style={desc}>{ props.desc[0] }</p>
                               <p style={desc}>{ props.desc[1] }</p>
                               <p style={desc}>{ props.desc[2] }</p>
+                              <p style={desc}>{ props.desc[3] }</p>
 
 
-                              <h1 style = {center}>Technologies</h1>
+                              <h1 style = {{marginTop: '30px'}}>Technologies</h1>
                                 
                                 <ul style={liFlex}>
                                     <li style={liStyle}>react</li>
                                     <li style={liStyle}>bootstrap</li>
                                     <li style={liStyle}>nodejs</li>
-                                </ul>
-                                
-                                
+                                    <li style={liStyle}>firebase</li>
+                                </ul>       
 
                             </div>
-
-                            
-
                             
                         </div>
 
-  
                       </div>
-  
-                      {/* <a href="latest resume.pdf" download="latest resume.pdf" className="btn"> Download CV <i className="fas fa-download"></i> </a> */}
-  
+
                   </div>
 
                 </div>
             </section>
-  
-                 
-        
       </>
     );
   }
