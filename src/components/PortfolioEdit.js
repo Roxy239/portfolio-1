@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'react-external-link';
+import { Button } from 'react-bootstrap';
+import Details from './Details';
 
-const Portfolio = () => {
+const PortfolioEdit = () => {
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <div>
             <section className="portfolio">
@@ -17,7 +21,15 @@ const Portfolio = () => {
                         <h3>Hublet</h3>
                         <p>Watch Selling MERN Stack Website.User can buy watch from the shop.</p>
                         <ExternalLink href="https://watch-website-2a3c4.web.app/">Live Site</ExternalLink>
-                        <a href="#">Details</a>
+                        {/* <Button variant="primary" onClick={() => setModalShow(true)}>
+                            Details
+                        </Button> */}
+                        <Link to={'/details-Hublet'}>Details</Link>
+                        {/* <Details
+                            show={modalShow}
+                            onHide={() => setModalShow(false)}
+                        /> */}
+                        
                     </div>
                 </div>
 
@@ -27,7 +39,8 @@ const Portfolio = () => {
                         <h3>Travely</h3>
                         <p>This is a Tourism service platform,customer can login with google,Customer can book service and cancel service</p>
                         <ExternalLink href="https://travely-tourism-agency.web.app/">Live Site</ExternalLink>
-                        <a href="#">Details</a>
+                        {/* <a href="#">Details</a> */}
+                        <Link to={'/details'}>Details</Link>
                     </div>
                 </div>
 
@@ -50,7 +63,7 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default PortfolioEdit;
 
 
 
