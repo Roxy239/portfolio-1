@@ -12,6 +12,10 @@ import PortfolioEdit from './components/PortfolioEdit';
 
 function App() {
   const hubDesc = ['Description for hublot', 'Some Details', 'More Details'];
+  const hubImg = ['images/blog1.jpg','images/blog2.jpg','images/blog3.jpg','images/blog4.jpg']
+
+
+
   return (
     <div className="App">
       <Router>
@@ -27,7 +31,7 @@ function App() {
             <Route  path="/about">
               <About></About>
             </Route>
-            <Route  path="/portfolio">
+            <Route  path="/portfolioedit">
               <Portfolio></Portfolio>
             </Route>
             <Route  path="/details-Hublet">
@@ -35,9 +39,10 @@ function App() {
                 title = "Hublet" 
                 brief = "Watch Selling MERN Stack Website"
                 desc = {hubDesc}
+                imgLink = {hubImg}
               />
             </Route>
-            <Route  path="/portfolioedit">
+            <Route  path="/portfolio">
               <PortfolioEdit></PortfolioEdit>
             </Route>
             <Route  path="/contact">

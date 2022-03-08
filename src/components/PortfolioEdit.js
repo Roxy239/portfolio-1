@@ -40,7 +40,7 @@ const PortfolioEdit = () => {
                         <p>This is a Tourism service platform,customer can login with google,Customer can book service and cancel service</p>
                         <ExternalLink href="https://travely-tourism-agency.web.app/">Live Site</ExternalLink>
                         {/* <a href="#">Details</a> */}
-                        <Link to={'/details'}>Details</Link>
+                        <Link to={'/details-Travely'}>Details</Link>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const PortfolioEdit = () => {
                         <h3>Medinova Ltd</h3>
                         <p>This is a diagnostic centre website where user can create an account  via google. User can login to his/her account</p>
                         <ExternalLink className="btn" href="https://medinova-diagonistic-centre.web.app/">Live Site</ExternalLink>
-                        <a href="#">Details</a>
+                        <Link to={'/details-Medinova'}>Details</Link>
                     </div>
                 </div>
 

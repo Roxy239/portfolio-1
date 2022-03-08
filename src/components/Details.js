@@ -106,12 +106,12 @@ function Details(props) {
                         <div className="flexBox" style={flexBox}>
 
                             <div className="box">
-                              <img src='images/blog1.jpg' width={750}/>
+                              <img src={props.imgLink[0]} width={750}/>
                               
                               <div style={imgFlex}>
-                                  <img width ={245} src="images/blog2.jpg"/>
-                                  <img width ={245} src="images/blog3.jpg"/>
-                                  <img width ={245} src="images/blog4.jpg"/>
+                                  <img width ={245} src={props.imgLink[1]}/>
+                                  <img width ={245} src={props.imgLink[2]}/>
+                                  <img width ={245} src={props.imgLink[3]}/>
                               </div>
                             </div>
 
